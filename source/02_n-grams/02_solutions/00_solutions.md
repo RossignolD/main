@@ -2,11 +2,11 @@
 
 - *fr* is a bigram, because it contains exactly two sounds that occur next to each other in the word.
 - *z* is not a bigram, because it contains one sound, and not two.
-- *doci* is not a bigram because it contains 4 sounds, and not two. These sounds are [d], [o], [sh] (to be replaced with IPA symbol), and [ih] (to be replaced with IPA symbol).
+- *doci* is not a bigram because it contains 4 sounds, and not two. These sounds are [d], [o], [ʃ], and [ɪ].
 - *pail* is not a bigram of the word, because it does not occur anywhere in the word.
 - *sit* is not a bigram of the word, because it does not pccur anywhere in the word.
 - *co* is a bigram, but it is not a bigram of the word, because it does not occur anywhere in the word.
-- *super* is not a bigram because it contains 5 sounds, and not two. These sounds are [s], [u], [p], [schwa-r] (to be replaced with IPA symbol)].
+- *super* is not a bigram because it contains 5 sounds, and not two. These sounds are [s], [u], [p], [ɚ]].
 
 ## Exercise 2
 
@@ -23,7 +23,7 @@
 - *do*{{{R}}}*c* is not any one of these choices, because it does not occur anywhere in the word.
 - *s*{{{R}}}{{{{R}}}}{{{{R}}}} is a 4-gram of the word, because the sound [s] is found at the right edge of the word, and there are 3 right edge markers, making a total of 4 sounds/symbols.
 - *sit* is not any of these choices, because it does not occur anywhere in the word.
-- *cious* is a trigram of the word becuase it contains [sh] (to be replaced with IPA symbol), [schwa] (to be replaced with IPA symbol) and [s].
+- *cious* is a trigram of the word becuase it contains [ʃ], [ə] and [s].
 - {{{L}}}*sup* is a 4-gram because it has 4 sounds/symbols, and it occurs in the word.
 
 ## Exercise 4
