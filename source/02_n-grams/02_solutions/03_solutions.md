@@ -8,3 +8,9 @@
 - *de-* is a trigram if one views the basic building blocks as typed characters. The three components of the trigram would be *d*, *e*, and *-*. It could also be viewed as a unigram if one views the basic building blocks as morphemes.
 - *mpi* is a trigram if one views the basic building blocks as typed characters. The three components of the trigram would be *m*, *p*, and *i*. If one views the basic building blocks as words, it could be a unigram.
 - *John likes Mary* is a trigram if one views the basic building blocks as words. The three components are the three words. It could also be a 4-gram if one views the basic building blocks as morphemes. In this case, the four components are *John*, *like*, *-s* and *Mary*.
+
+## Exercise 3
+Positive grammar for this string language: {{{{L}}}a, b{{{R}}}}, ab}
+Negative grammar for this string language: {*{{{L}}}b, *a{{{R}}}, *ba, *aa, 
+*bb} The positive grammar seems to be much more succinct and explanatory 
+than the negative grammar. If the set of symbols were larger, the negative grammar would become even larger, but the positive grammar would not grow. 
