@@ -7,10 +7,15 @@
 ## Exercise 2
 - *de-* is a trigram if one views the basic building blocks as typed characters. The three components of the trigram would be *d*, *e*, and *-*. It could also be viewed as a unigram if one views the basic building blocks as morphemes.
 - *mpi* is a trigram if one views the basic building blocks as typed characters. The three components of the trigram would be *m*, *p*, and *i*. If one views the basic building blocks as words, it could be a unigram.
-- *John likes Mary* is a trigram if one views the basic building blocks as words. The three components are the three words. It could also be a 4-gram if one views the basic building blocks as morphemes. In this case, the four components are *John*, *like*, *-s* and *Mary*.
+- *John likes Mary* is a trigram if one views the basic building blocks as words. The three components are the three words. It could also be a 4-gram if one views the basic building blocks as morphemes. In this case, the four components are *John*, *like*, *-s* and *Mary*. If one views the the basic building blocks as characters (and include spaces), this could be analyzed as a 15-gram.
 
 ## Exercise 3
-Positive grammar for this string language: {{{{L}}}a, b{{{R}}}}, ab}
-Negative grammar for this string language: {*{{{L}}}b, *a{{{R}}}, *ba, *aa, 
+Positive grammar for this string language: {{{{L}}}a, b{{{R}}}}, ab, ba}
+Negative grammar for this string language: {*{{{L}}}b, *a{{{R}}}, *aa, 
 *bb} The positive grammar seems to be much more succinct and explanatory 
-than the negative grammar. If the set of symbols were larger, the negative grammar would become even larger, but the positive grammar would not grow. 
+than the negative grammar. If the set of symbols were larger, the negative grammar would become even larger, but the positive grammar would not grow.
+[insert amount grown here]
+
+## Exercise 4
+- The positive 3-gram gramar for intervocalic voicing with these symbols must capture the fact that the only allowed Vowel-Consonant-Vowel patterns are those with a voiced segment between the vowels. Therefore, the positve 3-gram grammar must be {aza, azi, azu, iza, izi, izu, uza, uzi, uzu, ava, avi, avu, iva, ivi, ivu, uva, uvi, uvu}
+- The 2-gram grammaar that is needed is {mb, nb}
